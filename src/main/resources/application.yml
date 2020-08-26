@@ -8,9 +8,8 @@ vcap:
 
 # Hotfix patch
 endpoints.enabled: false
-endpoint:
-  health.enabled: true
-  
+
+
 # Spring properties
 spring:
   application:
