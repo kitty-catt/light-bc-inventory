@@ -6,6 +6,11 @@ server:
 vcap:
   uri:
 
+# Hotfix patch
+endpoints.enabled: false
+endpoint:
+  health.enabled: true
+  
 # Spring properties
 spring:
   application:
@@ -28,4 +33,3 @@ spring:
     hibernate:
       ddl-auto: update
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
-
